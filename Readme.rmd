@@ -26,7 +26,7 @@ During the building process, I've met several problems, the followings are the e
 
 # rlang0.4.0
 ```{r fig.align='center'}
-knitr::include_graphics("C:/Users/dell/Desktop/adv-r/error/1.PNG")
+knitr::include_graphics("error/1.PNG")
 ```
 
 To solve it, I removed `rlang` and then reinstalled it.
@@ -39,7 +39,7 @@ install.packages("rlang")
 
 # Failed to install "emo" from Github:
 ```{r fig.align='center'}
-knitr::include_graphics("C:/Users/dell/Desktop/adv-r/error/2.PNG")
+knitr::include_graphics("error/2.PNG")
 ```
 
 To solve this problem,I executed the following command in Git.
@@ -51,7 +51,7 @@ $ git config --global http.sslCAInfo E:/R/R-3.6.1/library/openssl/cacert.pem
 
 # Quitting from lines 223-235 (Introduciton.Rmd)
 ```{r fig.align='center'}
-knitr::include_graphics("C:/Users/dell/Desktop/adv-r/error/3.PNG")
+knitr::include_graphics("error/3.PNG")
 ```
 
 Adding `encoding = "UTF-8"` in line 224 can fix it. The line 224 is displayed as
@@ -66,7 +66,7 @@ Most of the warnings are packages missing. Use install.packages() to solve this 
 
 # Fonts cannot be found
 ```{r fig.align='center'}
-knitr::include_graphics("C:/Users/dell/Desktop/adv-r/error/4.PNG")
+knitr::include_graphics("error/4.PNG")
 ```
 I downloaded the font `Inconsolate` and `Andale Mono` from the internet.
 
